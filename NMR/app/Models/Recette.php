@@ -12,7 +12,8 @@ class Recette extends Model
     protected $fillable = [
         'nom',
         'description',
-        'ingredient',
-        'etape'
+        'ingredient_id',
+        'etape_id',
+        'user_id'
     ];
 }

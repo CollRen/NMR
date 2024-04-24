@@ -22,8 +22,6 @@ class RecetteFactory extends Factory
         return [
             'nom' => $this->faker->word,
             'description' => $this->faker->paragraph,
-            'ingredient' => $this->faker->words,
-            'etape' => $this->faker->sentence,
             'user_id' => User::factory(),
             'ingredient_id' => Ingredient::factory(),
             'etape_id' => Etape::factory()
